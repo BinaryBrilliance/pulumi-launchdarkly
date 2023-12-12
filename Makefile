@@ -1,7 +1,7 @@
 PACK             := launchdarkly
-ORG              := lbrlabs
+ORG              := BinaryBrilliance
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
-NODE_MODULE_NAME := @lbrlabs/${PACK}
+NODE_MODULE_NAME := @binarybrilliance/${PACK}
 TF_NAME          := ${PACK}
 PROVIDER_PATH    := provider
 VERSION_PATH     := ${PROVIDER_PATH}/pkg/version.Version

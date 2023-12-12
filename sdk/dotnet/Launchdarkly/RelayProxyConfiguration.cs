@@ -102,7 +102,7 @@ namespace Lbrlabs.PulumiPackage.Launchdarkly
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
-                PluginDownloadURL = "github://api.github.com/lbrlabs",
+                PluginDownloadURL = "github://api.github.com/BinaryBrilliance",
                 AdditionalSecretOutputs =
                 {
                     "fullKey",

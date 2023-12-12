@@ -20,7 +20,7 @@ builds:
   ldflags:
   - -s
   - -w
-  - -X github.com/lbrlabs/pulumi-launchdarkly/provider/pkg/version.Version={{.Tag}}
+  - -X github.com/BinaryBrilliance/pulumi-launchdarkly/provider/pkg/version.Version={{.Tag}}
   main: ./cmd/pulumi-resource-launchdarkly/
 changelog:
   skip: true

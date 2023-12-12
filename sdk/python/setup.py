@@ -15,7 +15,7 @@ class InstallPluginCommand(install):
     def run(self):
         install.run(self)
         try:
-            check_call(['pulumi', 'plugin', 'install', 'resource', 'launchdarkly', PLUGIN_VERSION, '--server', 'github://api.github.com/lbrlabs'])
+            check_call(['pulumi', 'plugin', 'install', 'resource', 'launchdarkly', PLUGIN_VERSION, '--server', 'github://api.github.com/BinaryBrilliance'])
         except OSError as error:
             if error.errno == errno.ENOENT:
                 print(f"""
@@ -48,7 +48,7 @@ setup(name='lbrlabs_pulumi_launchdarkly',
       keywords='pulumi launchdarkly lbrlabs',
       url='https://www.pulumi.com',
       project_urls={
-          'Repository': 'https://github.com/lbrlabs/pulumi-launchdarkly'
+          'Repository': 'https://github.com/BinaryBrilliance/pulumi-launchdarkly'
       },
       packages=find_packages(),
       package_data={

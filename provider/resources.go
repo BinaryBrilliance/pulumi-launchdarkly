@@ -6,7 +6,7 @@ import (
 	"unicode"
 
 	"github.com/launchdarkly/terraform-provider-launchdarkly/launchdarkly"
-	"github.com/lbrlabs/pulumi-launchdarkly/provider/pkg/version"
+	"github.com/BinaryBrilliance/pulumi-launchdarkly/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 	shim "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim"
 	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
@@ -70,12 +70,12 @@ func Provider() tfbridge.ProviderInfo {
 		DisplayName:       "Launch Darkly",
 		Publisher:         "lbrlabs",
 		LogoURL:           "https://raw.githubusercontent.com/lbrlabs/pulumi-launchdarkly/master/assets/logo.png",
-		PluginDownloadURL: "github://api.github.com/lbrlabs",
+		PluginDownloadURL: "github://api.github.com/BinaryBrilliance",
 		Description:       "A Pulumi package for creating and managing launch darkly cloud resources.",
 		Keywords:          []string{"pulumi", "launchdarkly", "lbrlabs"},
 		// License:    string(*refProviderLicense(tfbridge.MPL20LicenseType)),
 		Homepage:   "https://www.pulumi.com",
-		Repository: "https://github.com/lbrlabs/pulumi-launchdarkly",
+		Repository: "https://github.com/BinaryBrilliance/pulumi-launchdarkly",
 		GitHubOrg:  "launchdarkly",
 		Config: map[string]*tfbridge.SchemaInfo{
 			"access_token": {
@@ -147,7 +147,7 @@ func Provider() tfbridge.ProviderInfo {
 		},
 		Golang: &tfbridge.GolangInfo{
 			ImportBasePath: filepath.Join(
-				fmt.Sprintf("github.com/lbrlabs/pulumi-%[1]s/sdk/", mainPkg),
+				fmt.Sprintf("github.com/BinaryBrilliance/pulumi-%[1]s/sdk/", mainPkg),
 				tfbridge.GetModuleMajorVersion(version.Version),
 				"go",
 				mainPkg,

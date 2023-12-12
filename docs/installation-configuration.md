@@ -10,7 +10,7 @@ The Pulumi Launch Darkly provider is available as a package in all Pulumi langua
 
 * JavaScript/TypeScript: [`@lbrlabs/pulumi-darkly`](https://www.npmjs.com/package/@lbrlabs/pulumi-launchdarkly)
 * Python: [`lbrlabs_pulumi_launchdarkly`](https://pypi.org/project/lbrlabs-pulumi-launchdarkly/)
-* Go: [`github.com/lbrlabs/pulumi-launchdarkly/sdk/go/launchdarkly`](https://pkg.go.dev/github.com/lbrlabs/pulumi-launchdarkly/sdk)
+* Go: [`github.com/BinaryBrilliance/pulumi-launchdarkly/sdk/go/launchdarkly`](https://pkg.go.dev/github.com/BinaryBrilliance/pulumi-launchdarkly/sdk)
 * .NET: [`Lbrlabs.PulumiPackage.LaunchDarkly`](https://www.nuget.org/packages/Lbrlabs.PulumiPackage.LaunchDarkly)
 
 ### Provider Binary

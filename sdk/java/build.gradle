@@ -90,12 +90,12 @@ publishing {
                 packaging = "jar"
                 description = ""
 
-                url = "https://github.com/lbrlabs/pulumi-launchdarkly"
+                url = "https://github.com/BinaryBrilliance/pulumi-launchdarkly"
 
                 scm {
-                    connection = "git@github.com/lbrlabs/pulumi-launchdarkly.git"
-                    developerConnection = "git@github.com/lbrlabs/pulumi-launchdarkly.git"
-                    url = "https://github.com/lbrlabs/pulumi-launchdarkly"
+                    connection = "git@github.com/BinaryBrilliance/pulumi-launchdarkly.git"
+                    developerConnection = "git@github.com/BinaryBrilliance/pulumi-launchdarkly.git"
+                    url = "https://github.com/BinaryBrilliance/pulumi-launchdarkly"
                 }
 
                 licenses {

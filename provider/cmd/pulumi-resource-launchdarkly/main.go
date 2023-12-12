@@ -5,8 +5,8 @@ package main
 import (
 	_ "embed"
 
-	launchdarkly "github.com/lbrlabs/pulumi-launchdarkly/provider"
-	"github.com/lbrlabs/pulumi-launchdarkly/provider/pkg/version"
+	launchdarkly "github.com/BinaryBrilliance/pulumi-launchdarkly/provider"
+	"github.com/BinaryBrilliance/pulumi-launchdarkly/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 )
 

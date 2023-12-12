@@ -35,7 +35,7 @@ $ pip install lbrlabs-pulumi-launchdarkly
 To use from Go, use `go get` to grab the latest version of the library
 
 ```
-$ go get github.com/lbrlabs/pulumi-launchdarkly/sdk/go/...
+$ go get github.com/BinaryBrilliance/pulumi-launchdarkly/sdk/go/...
 ```
 
 ### .NET

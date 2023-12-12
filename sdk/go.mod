@@ -1,4 +1,4 @@
-module github.com/lbrlabs/pulumi-launchdarkly/sdk
+module github.com/BinaryBrilliance/pulumi-launchdarkly/sdk
 
 go 1.19
 

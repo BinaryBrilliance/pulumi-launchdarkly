@@ -1,4 +1,4 @@
-module github.com/lbrlabs/pulumi-launchdarkly/provider
+module github.com/BinaryBrilliance/pulumi-launchdarkly/provider
 
 go 1.19
 
@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20230130151041-c79165db4b9a
+	github.com/launchdarkly/terraform-provider-launchdarkly v1.7.2-0.20231212114036-3bca36a0e280
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.35.0
 	github.com/pulumi/pulumi/sdk/v3 v3.49.1-0.20221210190028-cbf32d1940fa
 )
